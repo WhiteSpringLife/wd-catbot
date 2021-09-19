@@ -1,10 +1,11 @@
 # wd-catbot
 
-1. node config.js -t "토큰" -p "prefix"
-2. node index.js
+1. npm i
+2. node config.js -t "토큰" -p "prefix"
+3. node index.js
 
 ## 예시
-1. node config.js -t ODY1NjIxODUz.YPGrFw.o0vMwjdLBKhBao -p .
+node config.js -t ODY1NjIxODUz.YPGrFw.o0vMwjdLBKhBao -p .
 
 결과
 ```js
@@ -13,4 +14,3 @@
 	"token": "ODY1NjIxODUz.YPGrFw.o0vMwjdLBKhBao"
 }
 ```
-2. node index.js
