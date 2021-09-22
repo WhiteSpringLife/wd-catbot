@@ -1,4 +1,4 @@
-const config = require('./config.json');
+const config = require("./config.json");
 
 let commands = require("./Collection")(
     [
@@ -9,4 +9,4 @@ let commands = require("./Collection")(
     config.prefix
 );
 
-const bot = require("./wd-base")(config, commands);
+const bot = require('wd-bot-base')(config, commands);

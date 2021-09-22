@@ -12,7 +12,6 @@ module.exports = function (add_commands, bot_name, prefix) {
 
 function AddCommand(add_commands) {
     add_commands.forEach(command => {
-        console.log(command.k);
         if (typeof (command.k) == "object") {
             command.k.forEach(command_k => {
                 commands.set(command_k, command.v);
