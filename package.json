@@ -1,6 +1,6 @@
 {
   "name": "wd-catbot",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   "dependencies": {
     "commander": "^8.2.0",
     "discord.js": "^13.1.0",
-    "wd-bot-base": "^1.0.1",
+    "wd-bot-base": "^1.0.2",
     "wd-covid": "^1.0.11"
   }
 }
